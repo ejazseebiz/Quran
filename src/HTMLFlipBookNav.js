@@ -98,8 +98,8 @@ const HTMLFlipBookForward = React.forwardRef((props, ref) => {
         <div>
             <div ref={htmlElementRef} className={props.className} style={props.style} dir="rtl">{pages}</div>
             <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                <button onClick={() => pageFlip.current?.flipPrev()} style={{ margin: '5px' }}>Previous</button>
-                <button onClick={() => pageFlip.current?.flipNext()} style={{ margin: '5px' }}>Next</button>
+                <button onClick={() => pageFlip.current?.flipPrev()} style={{ margin: '5px' }}>Next</button>
+                <button onClick={() => pageFlip.current?.flipNext()} style={{ margin: '5px' }}>Previous</button>
                 <input type="number" placeholder="Go to page" id="gotoPage" style={{ margin: '5px' }} />
                 <button onClick={() => {
                     const page = document.getElementById('gotoPage').value;
