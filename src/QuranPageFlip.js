@@ -4,13 +4,8 @@ import HTMLFlipBook from "react-pageflip";
 const QuranPageFlip = () => {
   // ✅ Define the page images in an array
   const pages = [
-    process.env.PUBLIC_URL + "/quran/page-2.jpg",
-    process.env.PUBLIC_URL + "/quran/page-3.jpg",
-    process.env.PUBLIC_URL + "/quran/page-4.jpg",
-    process.env.PUBLIC_URL + "/quran/page-5.jpg",
-    process.env.PUBLIC_URL + "/quran/page-6.jpg",
-    process.env.PUBLIC_URL + "/quran/page-7.jpg",
-    process.env.PUBLIC_URL + "/quran/page-8.jpg",
+    process.env.PUBLIC_URL + "/quran/title.jpg",
+    process.env.PUBLIC_URL + "/quran/para-1/page-2.jpg",
   ];
 
   return (
@@ -24,7 +19,7 @@ const QuranPageFlip = () => {
         maxWidth={574}
         maxHeight={800}
         drawShadow={true}
-        showCover={true}
+        showCover={false}
         mobileScrollSupport={true}
         flippingTime={800}
         startPage={0}
