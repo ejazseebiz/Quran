@@ -1,6 +1,6 @@
 import React from "react";
 // import HTMLFlipBook from "react-pageflip";
-import HTMLFlipBook from "./HTMLFlipBook";
+import HTMLFlipBook from "./HTMLFlipBookNav";
 
 const QuranPageFlip = () => {
   // ✅ Define the page images in an array
